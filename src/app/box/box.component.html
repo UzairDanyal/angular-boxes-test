@@ -1,0 +1,1 @@
+<div *ngFor="let item of box; let i=index"  class="box" [ngStyle]="getColor(i)" (dragover)="onDrag(i)"></div>
